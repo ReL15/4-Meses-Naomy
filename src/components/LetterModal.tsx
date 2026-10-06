@@ -65,28 +65,28 @@ export const LetterModal: React.FC<LetterModalProps> = ({ isOpen, onClose }) => 
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0e101f] via-[#0e101f]/30 to-transparent" />
             <div className="absolute bottom-3 left-4 right-4 text-xs font-serif italic text-rose-200">
-              "Para la mujer que ilumina mi vida desde Lima, con todo el amor de San Salvador."
+              "Para Naomy, la mujer que ilumina mi vida desde Lima, con todo el amor de San Salvador."
             </div>
           </div>
 
           {/* Letter Heading */}
           <div>
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-white mb-1">
-              Mi amor, eres el amor de mi vida
+              Naomy, eres el amor de mi vida
             </h2>
             <p className="text-xs text-rose-400 font-mono">
-              Hoy cumplimos 4 meses · De El Salvador a Perú
+              Hoy cumplimos 4 meses · De El Salvador a Naomy en Perú
             </p>
           </div>
 
           {/* Emotional Letter Text */}
           <div className="space-y-4 text-sm sm:text-base leading-relaxed text-slate-200 font-light font-sans">
             <p>
-              Hoy que cumplimos cuatro meses de ser novios, quiero escribirte lo que a veces las palabras rápidas de un mensaje no logran abarcar. Quiero que te tomes un respiro, me sientas cerquita a pesar de los 3,150 kilómetros y guardes cada una de estas palabras en tu corazón.
+              Naomy, hoy que cumplimos cuatro meses de ser novios, quiero escribirte lo que a veces las palabras rápidas de un mensaje no logran abarcar. Quiero que te tomes un respiro, me sientas cerquita a pesar de los 3,150 kilómetros y guardes cada una de estas palabras en tu corazón.
             </p>
 
             <p>
-              Sé que a veces te asalta ese miedo silencioso: <em>"¿Seré suficiente para él? ¿Y si no soy lo que espera?"</em>. Y quiero ser absolutamente claro, firme y honesto contigo: <strong>tú eres más que suficiente para mí</strong>. Eres más de lo que jamás me atreví a pedirle a Dios o a la vida.
+              Sé que a veces te asalta ese miedo silencioso: <em>"¿Seré suficiente para él? ¿Y si no soy lo que espera?"</em>. Y quiero ser absolutamente claro, firme y honesto contigo: <strong>Naomy, tú eres más que suficiente para mí</strong>. Eres más de lo que jamás me atreví a pedirle a Dios o a la vida.
             </p>
 
             <p>
@@ -94,15 +94,15 @@ export const LetterModal: React.FC<LetterModalProps> = ({ isOpen, onClose }) => 
             </p>
 
             <p>
-              Me enamora tu risa, tu dulzura, tu fuerza y hasta tus momentos de fragilidad, porque en ellos veo a la mujer real, hermosa y valiente que tengo la bendición de llamar mi novia. No hay otra mujer en este mundo para mí. No busco nada fuera de ti; en ti encontré mi hogar, mi paz y mi futuro.
+              Me enamora tu risa, tu dulzura, tu fuerza y hasta tus momentos de fragilidad, porque en ellos veo a la mujer real, hermosa y valiente que tengo la bendición de llamar mi novia. No hay otra mujer en este mundo para mí. No busco nada fuera de ti, Naomy; en ti encontré mi hogar, mi paz y mi futuro.
             </p>
 
             <p className="p-4 bg-rose-950/30 border-l-4 border-rose-500 rounded-r-xl italic font-serif text-rose-100 text-sm sm:text-base">
-              "Quiero pasar el resto de mis días contigo. Quiero trabajar duro, ver cómo rompemos esta distancia, abrazarte en el aeropuerto hasta que me tiemblen las piernas y empezar a construir la vida que soñamos juntos."
+              "Naomy, quiero pasar el resto de mis días contigo. Quiero trabajar duro, ver cómo rompemos esta distancia, abrazarte en el aeropuerto hasta que me tiemblen las piernas y empezar a construir la vida que soñamos juntos."
             </p>
 
             <p>
-              Felices 4 meses, mi niña hermosa. Gracias por regalarme tu corazón, tu tiempo y tu ternura. Hoy te prometo que nunca caminarás con dudas sobre mi amor. Te amo con cada fibra de mi ser, hoy, mañana y para siempre.
+              Felices 4 meses, mi Naomy hermosa. Gracias por regalarme tu corazón, tu tiempo y tu ternura. Hoy te prometo que nunca caminarás con dudas sobre mi amor. Te amo con cada fibra de mi ser, hoy, mañana y para siempre.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ export const LetterModal: React.FC<LetterModalProps> = ({ isOpen, onClose }) => 
             <div>
               <p className="text-xs text-slate-400">Siempre tuyo,</p>
               <p className="text-base font-serif font-bold text-rose-200">
-                Tu novio salvadoreño que te ama con el alma 🇸🇻❤️🇵🇪
+                Tu novio salvadoreño que te ama con el alma, Naomy 🇸🇻❤️🇵🇪
               </p>
             </div>
             <span className="text-2xl">💍</span>

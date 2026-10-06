@@ -59,19 +59,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLetter }) => {
         <div className="flex items-center justify-center gap-2 text-xs sm:text-sm font-medium text-rose-300/90 mb-5">
           <span>El Salvador 🇸🇻</span>
           <span aria-hidden="true" className="text-rose-500/60">·</span>
-          <span>4 Meses de Amor Puro</span>
+          <span>Para Naomy, 4 Meses de Amor Puro</span>
           <span aria-hidden="true" className="text-rose-500/60">·</span>
           <span>Perú 🇵🇪</span>
         </div>
 
         {/* Primary Hero Title with Cormorant font */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white tracking-tight leading-[1.1] max-w-4xl mx-auto text-balance mb-6">
-          Tú eres <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-rose-200 to-amber-200">más que suficiente</span> para mí.
+          Naomy, tú eres <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-rose-200 to-amber-200">más que suficiente</span> para mí.
         </h1>
 
         {/* Emotionally grounded lead paragraph */}
         <p className="text-base sm:text-lg md:text-xl text-slate-300 font-light max-w-2xl mx-auto leading-relaxed mb-9">
-          Hoy cumplimos 4 meses. Sé que a veces la distancia pesa y los miedos nos hacen dudar de si somos suficientes el uno para el otro. Hoy quiero darte la certeza eterna: <strong className="text-white font-medium">yo te amo, te elijo a ti y quiero pasar el resto de mis días contigo.</strong>
+          Hoy cumplimos 4 meses, mi Naomy hermosa. Sé que a veces la distancia pesa y los miedos nos hacen dudar de si somos suficientes el uno para el otro. Hoy quiero darte la certeza eterna: <strong className="text-white font-medium">yo te amo, te elijo a ti y quiero pasar el resto de mis días contigo.</strong>
         </p>
 
         {/* Dual Live Clocks & Distance Metrics (Real synchronization) */}

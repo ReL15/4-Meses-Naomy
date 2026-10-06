@@ -14,10 +14,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLetter }) => {
         <div className="text-center sm:text-left">
           <div className="flex items-center justify-center sm:justify-start gap-2 text-white font-serif text-lg font-bold mb-1">
             <Heart className="w-4 h-4 text-rose-500 fill-rose-500/40" />
-            <span>Nuestra Historia de Amor</span>
+            <span>Nuestra Historia de Amor con Naomy</span>
           </div>
           <p className="text-xs text-slate-400 max-w-sm">
-            4 meses juntos · San Salvador, El Salvador 🇸🇻 & Lima, Perú 🇵🇪. Porque el amor verdadero no conoce fronteras.
+            4 meses juntos amándote, Naomy · San Salvador, El Salvador 🇸🇻 & Lima, Perú 🇵🇪.
           </p>
         </div>
 

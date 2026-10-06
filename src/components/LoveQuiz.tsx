@@ -10,7 +10,7 @@ export const LoveQuiz: React.FC = () => {
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
   const [score, setScore] = useState<number>(0);
   const [isFinished, setIsFinished] = useState<boolean>(false);
-  const [partnerName, setPartnerName] = useState<string>('Mi Amor Preciosa');
+  const [partnerName, setPartnerName] = useState<string>('Naomy');
 
   const question = QUIZ_QUESTIONS[currentQuestionIndex];
 
@@ -72,10 +72,10 @@ export const LoveQuiz: React.FC = () => {
             <span>Dinámica de Pareja</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4">
-            El Desafío de Amor: 🇸🇻 El Salvador & 🇵🇪 Perú
+            El Desafío de Amor para Naomy: 🇸🇻 El Salvador & 🇵🇪 Perú
           </h2>
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-            Una dinámica divertida y romántica para nosotros. Responde cada pregunta y descubre los secretos de nuestro amor a través de las fronteras.
+            Una dinámica divertida y romántica para nosotros. Responde cada pregunta, mi Naomy, y descubre los secretos y certezas de nuestro amor a través de las fronteras.
           </p>
         </div>
 

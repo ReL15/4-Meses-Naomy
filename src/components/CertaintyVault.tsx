@@ -56,10 +56,10 @@ export const CertaintyVault: React.FC = () => {
             <span>El Frasco de las Certezas</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4">
-            Para cuando tengas miedo de no ser suficiente
+            Para Naomy: Cuando tengas miedo de no ser suficiente
           </h2>
           <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-            Mi niña hermosa: ambos hemos sentido ese temor silencioso. Aquí he dejado guardadas las verdades que destruyen cualquier duda. Lee una cada vez que tu mente quiera hacerte creer que no eres suficiente.
+            Naomy, mi niña hermosa: ambos hemos sentido ese temor silencioso. Aquí he dejado guardadas las verdades que destruyen cualquier duda. Lee una cada vez que tu mente quiera hacerte creer que no eres suficiente.
           </p>
         </div>
 
