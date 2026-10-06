@@ -203,13 +203,13 @@ export const LoveQuiz: React.FC = () => {
             </h3>
 
             <p className="text-slate-300 text-xs sm:text-sm max-w-lg mx-auto mb-6">
-              Otorgado con toda la devoción del corazón por haber superado la trivia y por ser la reina absoluta de estos 4 meses de noviazgo.
+              Otorgado con toda la devoción del corazón por parte de su novio salvadoreño <strong>Jorge</strong> por haber superado la trivia y por ser la reina absoluta de estos 4 meses de noviazgo.
             </p>
 
             {/* Interactive Partner Name editor */}
             <div className="max-w-md mx-auto mb-6 p-4 bg-slate-950/60 border border-white/10 rounded-2xl">
               <label className="block text-[11px] text-slate-400 mb-1.5">
-                Nombre de la dueña de este certificado (¡puedes cambiarlo!):
+                Nombre de la dueña de este certificado:
               </label>
               <input
                 type="text"
@@ -223,14 +223,14 @@ export const LoveQuiz: React.FC = () => {
             <div className="bg-rose-950/20 border border-rose-500/30 rounded-2xl p-6 max-w-xl mx-auto mb-8 text-left space-y-3">
               <div className="flex items-center gap-2 text-rose-300 text-xs font-semibold">
                 <Sparkles className="w-4 h-4 text-amber-300" />
-                <span>DECLARACIÓN JURADA DEL CORAZÓN</span>
+                <span>DECLARACIÓN JURADA DEL CORAZÓN DE JORGE</span>
               </div>
               <p className="text-xs sm:text-sm text-slate-200 leading-relaxed italic font-serif">
-                "Por medio de la presente, se hace constar que <strong>{partnerName}</strong> es y será por siempre <strong>MÁS QUE SUFICIENTE</strong> para su novio salvadoreño. Queda prohibido dudar de su valor, temer que él busque a otra persona o pensar que la distancia es más grande que su amor. Su lugar en su vida es para el resto de sus días."
+                "Por medio de la presente, se hace constar que <strong>{partnerName}</strong> es y será por siempre <strong>MÁS QUE SUFICIENTE</strong> para su novio Jorge. Queda prohibido dudar de su valor, temer que él busque a otra persona o pensar que la distancia es más grande que su amor. Su lugar al lado de Jorge es para el resto de sus días."
               </p>
               <div className="pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-slate-400">
-                <span>🇸🇻 San Salvador, El Salvador</span>
-                <span>🇵🇪 Lima, Perú</span>
+                <span>Firmado: Jorge 🇸🇻 (San Salvador)</span>
+                <span>Para: {partnerName} 🇵🇪 (Lima)</span>
                 <span>4 Meses de Novios</span>
               </div>
             </div>

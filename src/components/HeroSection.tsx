@@ -57,21 +57,21 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLetter }) => {
         
         {/* Subtle unboxed metadata kicker */}
         <div className="flex items-center justify-center gap-2 text-xs sm:text-sm font-medium text-rose-300/90 mb-5">
-          <span>El Salvador 🇸🇻</span>
+          <span>Jorge 🇸🇻</span>
           <span aria-hidden="true" className="text-rose-500/60">·</span>
-          <span>Para Naomy, 4 Meses de Amor Puro</span>
+          <span>De Jorge para Naomy · 4 Meses de Amor</span>
           <span aria-hidden="true" className="text-rose-500/60">·</span>
-          <span>Perú 🇵🇪</span>
+          <span>Naomy 🇵🇪</span>
         </div>
 
         {/* Primary Hero Title with Cormorant font */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white tracking-tight leading-[1.1] max-w-4xl mx-auto text-balance mb-6">
-          Naomy, tú eres <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-rose-200 to-amber-200">más que suficiente</span> para mí.
+          Naomy, tú eres <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-rose-300 via-rose-200 to-amber-200">más que suficiente</span> para Jorge.
         </h1>
 
         {/* Emotionally grounded lead paragraph */}
         <p className="text-base sm:text-lg md:text-xl text-slate-300 font-light max-w-2xl mx-auto leading-relaxed mb-9">
-          Hoy cumplimos 4 meses, mi Naomy hermosa. Sé que a veces la distancia pesa y los miedos nos hacen dudar de si somos suficientes el uno para el otro. Hoy quiero darte la certeza eterna: <strong className="text-white font-medium">yo te amo, te elijo a ti y quiero pasar el resto de mis días contigo.</strong>
+          Hoy cumplimos 4 meses, mi Naomy hermosa. Sé que a veces la distancia pesa y los miedos nos hacen dudar de si somos suficientes el uno para el otro. Hoy tu novio salvadoreño quiere darte la certeza eterna: <strong className="text-white font-medium">Jorge te ama con todo el corazón, te elijo a ti y quiero pasar el resto de mis días contigo.</strong>
         </p>
 
         {/* Dual Live Clocks & Distance Metrics (Real synchronization) */}
@@ -81,14 +81,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLetter }) => {
           <div className="bg-slate-900/60 backdrop-blur-md border border-white/10 rounded-xl p-4 transition-transform hover:-translate-y-0.5">
             <div className="flex items-center justify-between text-xs text-slate-400 mb-1.5">
               <span className="flex items-center gap-1.5 font-medium text-slate-300">
-                <span>🇸🇻</span> San Salvador
+                <span>🇸🇻</span> San Salvador (Jorge)
               </span>
               <span className="font-mono text-[11px] text-slate-400">GMT-6</span>
             </div>
             <div className="text-xl sm:text-2xl font-mono tabular-nums font-semibold text-rose-200">
               {salvadorTime || 'Cargando...'}
             </div>
-            <p className="text-xs text-slate-400 mt-1">Donde nace cada "buenos días mi amor"</p>
+            <p className="text-xs text-slate-400 mt-1">Donde Jorge cuenta los minutos para abrazarte</p>
           </div>
 
           {/* Connection summary */}
@@ -101,7 +101,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLetter }) => {
               1 sola hora de diferencia
             </div>
             <div className="text-xs text-rose-200/80 mt-1">
-              0 distancia entre nuestros corazones
+              0 distancia entre Jorge y Naomy
             </div>
           </div>
 
@@ -109,14 +109,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenLetter }) => {
           <div className="bg-slate-900/60 backdrop-blur-md border border-white/10 rounded-xl p-4 transition-transform hover:-translate-y-0.5">
             <div className="flex items-center justify-between text-xs text-slate-400 mb-1.5">
               <span className="flex items-center gap-1.5 font-medium text-slate-300">
-                <span>🇵🇪</span> Lima
+                <span>🇵🇪</span> Lima (Naomy)
               </span>
               <span className="font-mono text-[11px] text-slate-400">GMT-5</span>
             </div>
             <div className="text-xl sm:text-2xl font-mono tabular-nums font-semibold text-rose-200">
               {peruTime || 'Cargando...'}
             </div>
-            <p className="text-xs text-slate-400 mt-1">Donde duerme la dueña de mi corazón</p>
+            <p className="text-xs text-slate-400 mt-1">Donde duerme Naomy, la dueña de mi corazón</p>
           </div>
 
         </div>

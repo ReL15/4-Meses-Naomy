@@ -50,7 +50,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenLetter }) => {
           className="flex items-center gap-2 text-base sm:text-lg font-serif tracking-wide text-rose-100 hover:text-white transition-colors"
         >
           <span className="w-2 h-2 rounded-full bg-rose-500 animate-ping inline-block"></span>
-          <span>San Salvador <span className="text-rose-400 font-sans text-xs">🇸🇻</span> · Lima <span className="text-rose-400 font-sans text-xs">🇵🇪</span></span>
+          <span>Jorge <span className="text-rose-400 font-sans text-xs">🇸🇻</span> · Naomy <span className="text-rose-400 font-sans text-xs">🇵🇪</span></span>
         </a>
 
         {/* Zone 2: Clean navigation links */}
